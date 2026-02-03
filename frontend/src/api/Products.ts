@@ -1,7 +1,8 @@
 import type { Product } from "../types/Product";
+import { MAIN_URL_API } from "./urls";
 
 export const getProducts = async () => {
-    const response = await fetch('http://localhost:3000/products');
+    const response = await fetch(`${MAIN_URL_API}/products`);
     if (!response.ok) {
         throw new Error('Failed to fetch products');
     }
@@ -9,7 +10,7 @@ export const getProducts = async () => {
 }
 
 export const getProductById = async (id: number) => {
-    const response = await fetch(`http://localhost:3000/products/${id}`);
+    const response = await fetch(`${MAIN_URL_API}/products/${id}`);
     if (!response.ok) {
         throw new Error('Failed to fetch product');
     } 

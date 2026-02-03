@@ -1,0 +1,1 @@
+export const MAIN_URL_API = import.meta.env.VITE_MAIN_URL_API;
