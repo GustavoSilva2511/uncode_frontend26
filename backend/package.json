@@ -1,0 +1,17 @@
+{
+  "name": "api-produtos",
+  "version": "1.0.0",
+  "description": "Api básica para fornecimento de produtos",
+  "license": "MIT",
+  "author": "Gustavo Silva",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
