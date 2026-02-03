@@ -33,7 +33,7 @@ npm install && npm run dev
 
 ## Deploy publico
 
-Voce pode acessar o projeto pelo link publico [Uncode deploy](https://example.com)
+Voce pode acessar o projeto pelo link publico [Uncode deploy](https://uncode-frontend26.vercel.app)
 
 ## Decisões técnicas  relevantes
 
